@@ -1,12 +1,151 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica:ital@0;1&family=Noto+Sans+JP:wght@100..900&family=Shippori+Antique&display=swap" rel="stylesheet">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header id="top">
+        <div class="container">
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#club">Hobby</a></li>
+                <li><a href="#favorite">Gallery</a></li>
+                <li><a href="#works">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="firstview">
+        <p>Who is</p>
+        <p>Milk?</p>
+        <img class="firstview_img" src="img/header_me.png" width="75%" alt="自分の画像">
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="profile">
+                <div class="profile_img">
+                    <img src="img/profile_me.png" alt="自分の画像">
+                </div>
+                <div>
+                    <h2 class="section-title">About Me</h2>
+                    <p>
+                        慶應義塾大学に通ってます、メンターの<span>みるく</span>（大沼朝陽）です！<br>
+                        スクールでは、池袋スクールでWebサービスコースを、白金スクールでUnityコースを担当してます！<br>
+                        趣味は写真撮影で、静かな公園などでポートレートを撮影するのが好きです！
+                    </p>
+                </div>
+            </div>
+            <div class="school-club">
+                <div class="content">
+                    <img src="img/school.jpg" alt="学校の画像">
+                    <h3>学校について</h3>
+                    <p>
+                        慶應義塾大学に通っています。<br>
+                        日吉駅から徒歩0分です。
+                    </p>
+                    <a href="https://life-is-tech.com/school/">詳しくはこちら</a>
+                </div>
+                <div class="content">
+                    <img src="img/trumpet-small.png" alt="学校の画像">
+                    <h3>学校について</h3>
+                    <p>
+                        慶應義塾大学に通っています。<br>
+                        日吉駅から徒歩0分です。
+                    </p>
+                    <a href="https://life-is-tech.com/school/">詳しくはこちら</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="club" id="club">
+        <div class="container">
+            <div class="club-img">
+                <img src="img/trumpet-big.png" alt="">
+                <img src="img/background-pattern.png" alt="">
+                <img src="img/trumpet-small.png" alt="">
+            </div>
+            <div class="club-text">
+                <h2>吹奏楽部</h2>
+                <p>
+                    私たちの吹奏楽部は週4回。<br>
+                    普段はコンクールに向けた練習をしています。<br>
+                    今は学園祭に向けて流行りの曲を練習中です。<br>
+                    大変なことも多いですが、とても楽しいです！
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="favorite" id="favorite">
+        <div class="container">
+            <h2 class="section-title">好きなこと</h2>
+            <div class="favorite-contents">
+                <div class="favorite-content">
+                    <img src="img/camera.png" alt="">
+                    <h3>カメラ</h3>
+                    <p>主にポートレートを撮影するのが好きです。実際にキャンプ現場でカメラマンをすることもあります！</p>
     
+                </div>
+                <div class="favorite-content">
+                    <img src="img/dog.png" alt="">
+                    <h3>犬</h3>
+                    <p>犬が好きです。特に柴犬が好きです。</p>
+                    
+                </div>
+                <div class="favorite-content">
+                    <img src="img/youtube.png" alt="">
+                    <h3>YouTube</h3>
+                    <p>YouTubeを観るのが好きです。特に、技術系の動画が好きです。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="works" id="works">
+        <div class="container">
+            <h2 class="section-title">Works</h2>
+            <a href="https://life-is-tech.com" class="works-content">
+                <img src="img/website.png" alt="">
+                <div class="works-text">
+                    <h3>オリジナルwebサイト <span>2026年02月作成</span></h3>
+                    <p>「Life is Tech!（ライフイズテック）」のウェブサイトを作成しました。こだわったところは色の使い方です。</p>
+                </div>
+            </a>
+            <a href="https://youtu.be/vZ-b_Oy_oGY" class="works-content">
+                <img src="img/movie.png" alt="">
+                <div class="works-text">
+                    <h3>オリジナル映像 <span>2026年02月作成</span></h3>
+                    <p>Webデザインコースがどんなコースかわかる映像を制作しました。どんなことができるか伝わると嬉しいです。</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <p>
+                中学3年生の頃からものづくりにハマり、大学生になってからはイベント企画や運営をよく行っています<br>
+                これからももの作りを続けていきたいです！
+            </p>
+            <p>よかったらXやFacebookで繋がってください！</p>
+            <div class="sns">
+                <a href="https://x.com/LifeisTechInc/" class="sns-x">X</a>
+                <a href="https://www.facebook.com/LifeisTech/" class="sns-facebook">Facebook</a>
+                <a href="https://life-is-tech.com/school/" class="sns-website">サイト</a>
+            </div>
+        </div>
+    </section>
 </body>
+<footer>
+    &copy;Life is Tech! Web Design Course
+</footer>
 </html>
